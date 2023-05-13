@@ -1,7 +1,6 @@
 import { db } from "../database/database.connection.js"
 
 export async function createGame (req, res) {
-    const { title, pollId } = req.body
 
     try { 
         
